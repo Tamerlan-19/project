@@ -4,8 +4,6 @@
 }
 
 body, ul, li{
-    background-color: #ffffff;
-    color: #000000;
     line-height: 1.6;
     list-style: none;
     font-family: "Space Grotesk", sans-serif;
@@ -17,6 +15,7 @@ header {
     width: 100%;
     top: 0px;
     backdrop-filter: blur(5px);
+    z-index: 999;
 }
 
 nav a {
