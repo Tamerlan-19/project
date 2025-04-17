@@ -83,19 +83,34 @@ button {
 }
 
 .txtp{
-    margin-bottom: 40px;
+    width: 18.78460121154785;
+    height: 18.577030181884766;
+    top: 6.85px;
+    left: 18.8px;
+
 }
 
 .txtx{
-    margin-top: 5px;
+    width: 18.00261878967285;
+    height: 18.853782653808594;
+    top: 6.71px;
+    left: 38.4px;
+
 }
 
 .txtt{
-    margin-top: 5px;
+    width: 19.614858627319336;
+    height: 24.631460189819336;
+    top: 7.37px;
+    left: 55.39px;
+
 }
 
 .txtr{
-    margin-top: 5px;
+    width: 15.152215003967285;
+    height: 14.979243278503418;
+    left: 76.46px;
+
 }
 
 .site-title-text{
@@ -342,4 +357,25 @@ button {
     background-color: black;
     color: white;
     height: 154px;
+    margin-top: 75px;
+}
+
+.Letstalk{
+    padding-top: 130px;
+}
+
+.Letstalk-title-text{
+    font-size: 140px;
+    font-weight: 600;
+}
+
+.Letstalk-but{
+    background-color: black;
+    color: white;
+    width: 262px;
+    height: 92px;
+}
+
+.Testimonials{
+    padding-top: 80px;
 }
