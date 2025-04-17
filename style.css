@@ -335,3 +335,11 @@ button {
         width: 328px;
     }
 }
+
+.runline{
+    font-size: 140px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    height: 154px;
+}
