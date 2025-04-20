@@ -54,7 +54,7 @@ button {
     width:87px ;
     height: 46px;
     font-size: 20px;
-    color: black;
+    color: #000000;
     background-color: #ffffff;
 }
 
@@ -76,41 +76,12 @@ button {
     font-size: 20px;
 }
 
-.jwr{
-    display: flex; 
+.joey{
+    width: 91px;
     justify-self: center;
+    display: flex;
     margin-top: 32px;
-}
-
-.txtp{
-    width: 18.78460121154785;
-    height: 18.577030181884766;
-    top: 6.85px;
-    left: 18.8px;
-
-}
-
-.txtx{
-    width: 18.00261878967285;
-    height: 18.853782653808594;
-    top: 6.71px;
-    left: 38.4px;
-
-}
-
-.txtt{
-    width: 19.614858627319336;
-    height: 24.631460189819336;
-    top: 7.37px;
-    left: 55.39px;
-
-}
-
-.txtr{
-    width: 15.152215003967285;
-    height: 14.979243278503418;
-    left: 76.46px;
-
+    margin-bottom: 40px;
 }
 
 .site-title-text{
@@ -243,10 +214,8 @@ button {
 .title-more{
     display: flex;
     margin-top: 144px;
-}
-.arrow{
-    margin-top: 19px;
-    margin-left: 8px;
+    width: 71px;
+    height: 28px;
 }
 
 
@@ -354,8 +323,8 @@ button {
 .runline{
     font-size: 140px;
     font-weight: 600;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     height: 154px;
     margin-top: 75px;
 }
@@ -370,12 +339,36 @@ button {
 }
 
 .Letstalk-but{
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     width: 262px;
     height: 92px;
 }
 
 .Testimonials{
     padding-top: 80px;
+}
+
+.logo{
+    width: 92px;
+    height: 32px;
+    background-image: url("svgs/Logo.svg");
+    display: flex;
+    justify-self: center;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.title-more-arrow{
+    width: 13px;
+    height: 15px;
+    background-image: url("svgs/more_arrow.svg");
+    margin-left: 8px;
+    margin-top: 7px;
+}
+
+.Letstalk-but-arrow{
+    width: 19.8px;
+    height: 19.8px;
+    background-image: url("svgs/lets_talk_arrow.svg");
 }
