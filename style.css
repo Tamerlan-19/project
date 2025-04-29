@@ -93,8 +93,14 @@ button {
 
 .scr{
     background-color: #F9F9F9;
+    color: #000;
     height: 92px;
     width: 231px;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 500px;
 }
 
 .scr:hover{
@@ -104,16 +110,19 @@ button {
 
 .pcsj{
     width: 471px;
-    height: 84px;
     font-size: 20px;
-    display: flex;
     justify-self: end;
-    margin-right: 109px;
 }
-.site-subtitle-text{
-    margin-left: 112px;
-    width: 1219px;
 
+.site-subtitle{
+    width: 1600px;
+    margin-left: 112px;
+    outline: auto;
+}
+
+.site-subtitle-text{
+    width: 126px;
+    height: 68px;
 }
 
 
@@ -195,11 +204,19 @@ button {
     justify-content: space-between;
     padding-top: 144px;
 }
-.title-text{
-    font-size: 20px;
-    height: 181px;
-    width: 600px;
+
+.title-text-proj{
+    font-size: 48px;
+    font-weight: 600;
 }
+
+.title-text-text{
+    font-size: 20px;
+    font-weight: 500;
+    width: 529px;
+    height: 112px;
+}
+
 .images-group-1{
     width: 1216px;
     height: 1200px;
@@ -213,12 +230,16 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .title-more{
     display: flex;
     margin-top: 144px;
     width: 71px;
     height: 28px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .btn-underline:hover{
@@ -228,7 +249,6 @@ button {
 
 
 .expertise {
-    margin-left: 13px; 
     padding-top: 155px;
 }
 
@@ -298,8 +318,9 @@ button {
     }
 
     .expertise-tittle {
-        font-size: 32px;
+        font-size: 38px;
         margin-bottom: 40px;
+        font-weight: 600;
         margin-left: 0;
     }
 
@@ -307,6 +328,8 @@ button {
         display: flex;
         flex-wrap: wrap;
         padding-left: 0;
+        font-size: 32px;
+        font-weight: 600;
     }
 
     .expertise-list-item {
@@ -328,16 +351,67 @@ button {
 }
 
 .runline{
+    background-color: #000;
+    overflow: hidden;
+    height: 249px;
+    margin-top: 123px;
+}
+
+.runline-text{
     font-size: 140px;
     font-weight: 600;
-    background-color: #000;
     color: #fff;
-    height: 154px;
-    margin-top: 75px;
+    margin-top: auto;
+    width: 100%;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(-200%); }
+    100% { transform: translateX(-69%); }
+}
+
+.Testimonials{
+    padding-top: 80px;
+    width: 1216px;
+    height: 606px;
+    display: flex;
+    justify-self: center;
+}
+
+.main-text{
+    width: 954px;
+    height: 496px;
+}
+
+.main-text-title{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.main-text-text{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.additional-text{
+    width: 181px;
+    height: 65px;
+    margin-top: 741px;
+    margin-left: 81px;
 }
 
 .Letstalk{
     padding-top: 130px;
+    outline: auto;
+    width: 1216px;
+    height: 468px;
+    display: flex;
+    justify-self: center;
 }
 
 .Letstalk-title-text{
@@ -350,10 +424,6 @@ button {
     color: #fff;
     width: 262px;
     height: 92px;
-}
-
-.Testimonials{
-    padding-top: 80px;
 }
 
 .logo{
