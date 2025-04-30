@@ -117,7 +117,6 @@ button {
 .site-subtitle{
     width: 1600px;
     margin-left: 112px;
-    outline: auto;
 }
 
 .site-subtitle-text{
@@ -375,38 +374,30 @@ button {
 }
 
 .Testimonials{
-    padding-top: 80px;
+    outline: auto;
+    margin-top: 80px;
     width: 1216px;
-    height: 606px;
-    display: flex;
     justify-self: center;
+    height: 606px;
 }
 
 .main-text{
     width: 954px;
-    height: 496px;
 }
 
 .main-text-title{
-    font-size: 64px;
     font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 40px;
 }
 
 .main-text-text{
-    font-size: 48px;
     font-weight: 500;
-    margin-top: 40px;
-}
-
-.additional-text{
-    width: 181px;
-    height: 65px;
-    margin-top: 741px;
-    margin-left: 81px;
+    font-size: 40px;
 }
 
 .Letstalk{
-    padding-top: 130px;
+    margin-top: 130px;
     outline: auto;
     width: 1216px;
     height: 468px;
