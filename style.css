@@ -453,3 +453,20 @@ button {
     color: #000;
     background-color: #fff;
 }
+
+@media(max-width:1000px){
+    .logo{
+        justify-self: left;
+    }
+    .groupbtn{
+        visibility: hidden;
+    }
+    .site-title{
+        width: 242px;
+        height: 116px;
+    }
+    .site-title-text{
+        font-size: 48px;
+        margin-top: 92px;
+    }
+}
