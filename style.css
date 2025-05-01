@@ -305,7 +305,7 @@ button {
     margin-left: -6px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
     .container {
         width: 1216px;
         height: 495px;
@@ -374,7 +374,6 @@ button {
 }
 
 .Testimonials{
-    outline: auto;
     margin-top: 80px;
     width: 1216px;
     justify-self: center;
@@ -401,13 +400,21 @@ button {
     outline: auto;
     width: 1216px;
     height: 468px;
-    display: flex;
+    flex-direction: column;
     justify-self: center;
+}
+
+.Letstalk-title{
+    width: 582px;
+    height: 294px;
+    justify-self: center;
+    outline: auto;
 }
 
 .Letstalk-title-text{
     font-size: 140px;
     font-weight: 600;
+    justify-self: center;
 }
 
 .Letstalk-but{
@@ -415,6 +422,7 @@ button {
     color: #fff;
     width: 262px;
     height: 92px;
+    justify-self: center;
 }
 
 .logo{
