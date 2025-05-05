@@ -378,6 +378,8 @@ button {
     width: 1216px;
     justify-self: center;
     height: 606px;
+    flex-direction: row;
+    display: flex;
 }
 
 .main-text{
@@ -392,7 +394,23 @@ button {
 
 .main-text-text{
     font-weight: 500;
-    font-size: 40px;
+    font-size: 38px;
+}
+
+.Testimonials-subtext{
+    width: 201px;
+    height: 65px;
+    margin-top: 541px;
+}
+
+.Testimonials-subtext-chris{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Testimonials-subtext-product{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .Letstalk{
@@ -400,7 +418,6 @@ button {
     outline: auto;
     width: 1216px;
     height: 468px;
-    flex-direction: column;
     justify-self: center;
 }
 
